@@ -2,12 +2,12 @@
 // Write a simple closure of your own creation.  Keep it simple!
 
 
-// const func = () => {
-//   let something = 369
-//   return something
-// }
+const func = () => {
+  let something = 369
+  return something
+}
 
-// console.log(func())
+console.log(func())
 
 
 
