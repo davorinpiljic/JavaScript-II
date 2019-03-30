@@ -2,6 +2,16 @@
 // Write a simple closure of your own creation.  Keep it simple!
 
 
+// const func = () => {
+//   let something = 369
+//   return something
+// }
+
+// console.log(func())
+
+
+
+
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
 
