@@ -114,3 +114,29 @@ contains("Pencil", items, (something) => console.log(something))
   // Pass the duplicate free array to the callback function.
   // Do not mutate the original array.
 
+
+  //REMOVE WITH FOR LOOP
+  const removeDuplicates = (arr, cb) => {
+    let cleanArr = []
+    for (let i = 0; i < arr.length; i++) {
+      if (cleanArr.indexOf(arr[i]) == -1) {
+        cleanArr.push(arr[i])
+      }
+    }
+    return cb(cleanArr)
+  }
+  
+  removeDuplicates(items, function(value) {
+    console.log(value)
+  })
+  
+
+  //FILTER ATTEMPT
+  const items = ['Pencil', 'Notebook', 'Notebook', 'Gum'];
+  const removeDuplicates = (arr, cb) => {
+  let cleanArr = []
+  cleanArr = arr.filter(function(i, index, newArr) {
+    returns index == newArr.indexOf(i)
+  })
+  return cb(cleanArr)
+}
